@@ -1,0 +1,107 @@
+
+@import url('cardapio.css');
+
+/* PAGINA DO PRODUTO */
+.product-page {
+    padding: 60px 20px;
+    background-color: var(--secondary-color);
+}
+
+.product-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+    background-color: var(--gray-bg);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-image-container {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.product-image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.product-details {
+    flex: 2;
+    min-width: 300px;
+}
+
+.product-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--dark-color);
+    margin-bottom: 10px;
+}
+
+.product-p {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.product-description {
+    font-size: 1rem;
+    color: var(--text-color);
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.product-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.option-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.option-group span {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--dark-color);
+}
+
+.option-group select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-add-to-cart {
+    width: 100%;
+    max-width: 300px;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    .product-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .product-details {
+        text-align: center;
+    }
+    
+    .product-options {
+        justify-content: center;
+    }
+}
