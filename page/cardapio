@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DOCE COFFEE - Cafeteria Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header"> <!-- SECTION CABEÇALHO INDEX.HTML-->
+        <nav class="navbar">
+            <div class="logo">DC</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cardapio.html">Cardápio <i class="fas fa-chevron-down"></i></a></li> 
+                <li><a href="#Ofertas Epeciais">Produtos </a></li>
+                <li><a href="#">Combos </a></li>
+                <li><a href="#">Pedidos </a></li>
+                <li><a href="#Sobre Nós">Sobre Nós</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-shopping-bag"></i></a>
+                <a href="#"><i class="fas fa-user-circle"></i></a>
+                <a href="#" class="btn-login">Entrar · Cadastre-se</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-------------------------------------------------------------------------------------------------------->
+    <!-- 1.SECTION CARDAPIO PRODUTOS -->
+    <section class="products-section">
+        <h3 class="section-title">Cardápio </h3>
+        <ul class="product-tabs">
+            <li><a href="" class="active">Torta</a></li>
+            <li><a href="cardapio.html">Cupcake </a></li>
+            <li><a href="cardapio.html">Cookie </a></li>
+            <li><a href="cardapio.html">Donut </a></li>
+        </ul>
+        <div class="products-grid">
+            <div class="product-card"> <!-- linha 1.1 -->
+                <img src="img/bolo1.png" alt="Torta">
+                <div class="product-info">
+                    <h4>Torta Prestígio </h4>
+                    <span class="p">R$12</span>
+                </div>
+                <a href="/page/bolo1Product.html" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="product-card"> <!-- linha 1.2 -->
+                <img src="img/bolo3.png" alt="Torta">
+                <div class="product-info">
+                    <h4>Torta De Morango</h4>
+                    <span class="p">R$10</span>
+                </div>
+                <a href="page/bolo3Product.html" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="product-card"> <!-- linha 1.3 -->
+                <img src="img/bolo2.png" alt="Torta">
+                <div class="product-info">
+                    <h4>Torta De Maracujá</h4>
+                    <span class="p">R$10</span>
+                </div>
+                <a href="page/bolo2Product.html" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="product-card"> <!-- linha 1.4 -->
+                <img src="img/bolo4.png" alt="Torta">
+                <div class="product-info">
+                    <h4>Torta De Oreo</h4>
+                    <span class="p">R$14</span>
+                </div>
+                <a href="#" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="product-card"> <!-- linha 2.1 -->
+                <img src="img/cupcake5.png" alt="Cupcake">
+                <div class="product-info">
+                    <h4>Cupcake De Chocolate</h4>
+                    <span class="p">R$8</span>
+                </div>
+                <a href="" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="product-card"> <!-- linha 2.2 -->
+                <img src="img/cupcake8.png" alt="Cupcake">
+                <div class="product-info">
+                    <h4>Cupcake Red Velvet</h4>
+                    <span class="p">R$10</span>
+                </div>
+                <a href="#" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="product-card"> <!-- linha 2.3 -->
+                <img src="img/cupcake10.png" alt="Cupcake">
+                <div class="product-info">
+                    <h4>Cupcake De Caramelo</h4>
+                    <span class="p">R$10</span>
+                </div>
+                <a href="#" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="product-card"> <!-- linha 2.4 -->
+                <img src="img/cupcake7.png" alt="Cupcake">
+                <div class="product-info">
+                    <h4>Cupcake De Cookie</h4>
+                    <span class="p">R$8</span>
+                </div>
+                <a href="#" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="product-card"> <!-- linha 3.1 -->
+                <img src="img/donut3.png" alt="Donut">
+                <div class="product-info">
+                    <h4>Donut De Chocolate</h4>
+                    <span class="p">R$10</span>
+                </div>
+                <a href="page/donut2.product.html" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="product-card"> <!-- linha 3.2 -->
+                <img src="img/donut2.png" alt="Donut">
+                <div class="product-info">
+                    <h4>Donut De Confeito</h4>
+                    <span class="p">R$10</span>
+                </div>
+                <a href="#" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="product-card"> <!-- linha 3.3 -->
+                <img src="img/biscoito1.png" alt="Cookie">
+                <div class="product-info">
+                    <h4>Cookie Recheado</h4>
+                    <span class="p">R$8</span>
+                </div>
+                <a href="#" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="product-card"> <!-- linha 3.4 -->
+                <img src="img/cookies.png" alt="Cookie">
+                <div class="product-info">
+                    <h4>Combo De Cookies</h4>
+                    <span class="p">R$20</span>
+                </div>
+                <a href="#" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-------------------------------------------------------------------------------------------------------->
+    <!-- 2.SECTION CARDAPIO PRODUTOS -->
+    <h3 id="Ofertas Epeciais"> </h3>
+    <section class="special-products-section">
+        <h3 class="section-title">Produtos </h3>
+        <ul class="product-tabs">
+            <li><a href="/cardapio.html" class="active"> Coffe · Sorvete </a></li>
+        </ul>
+        <div class="products-grid special">
+            <div class="product-card"> <!-- linha 4.1 -->
+                <img src="img/coffee5.png" alt="Chocolate">
+                <div class="product-info">
+                    <h4>Chocolate Quente</h4>
+                    <span class="p">R$11</span>
+                </div>
+                <a href="/page/coffee5Product.html" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="product-card"> <!-- linha 4.2 -->
+                <img src="img/coffee6.png" alt="Milkshake">
+                <div class="product-info">
+                    <h4>Milkshake De Creme </h4>
+                    <span class="p">R$16</span>
+                </div>
+                <a href="/cardapio.html" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="product-card"> <!-- linha 4.3 -->
+                <img src="img/matcha.png" alt="Matcha">
+                <div class="product-info">
+                    <h4>Matcha</h4>
+                    <span class="p">R$14</span>
+                </div>
+                <a href="/cardapio.html" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="product-card"> <!-- linha 4.4 -->
+                <img src="img/coffee7.png" alt="Chocolate">
+                <div class="product-info">
+                    <h4>Chocolate Cremoso</h4>
+                    <span class="p">R$12</span>
+                </div>
+                <a href="/cardapio.html" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="product-card"> <!-- linha 5.1 -->
+                <img src="img/sorvete1.png" alt="Sorvete">
+                <div class="product-info">
+                    <h4>Sorvete De Baunilha</h4>
+                    <span class="p">R$10</span>
+                </div>
+                <a href="/cardapio.html" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="product-card"> <!-- linha 5.2 -->
+                <img src="img/sorvete3.png" alt="Sorvete">
+                <div class="product-info">
+                    <h4>Sorvete Misto</h4>
+                    <span class="p">R$11</span>
+                </div>
+                <a href="/cardapio.html" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="product-card"> <!-- linha 5.3 -->
+                <img src="img/sorvete2.png" alt="Sorvete">
+                <div class="product-info">
+                    <h4>Sorvete De Cereja</h4>
+                    <span class="p">R$11</span>
+                </div>
+                <a href="/cardapio.html" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="product-card"> <!-- linha 5.4 -->
+                <img src="img/cooffe3.png" alt="Café">
+                <div class="product-info">
+                    <h4>Café Gelado</h4>
+                    <span class="p">R$12</span>
+                </div>
+                <a href="/cardapio.html" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-------------------------------------------------------------------------------------------------------->
+    <!-- 3.SECTION INSCRIÇÃO-DISCONTO -->
+    <section class="newsletter-section">
+        <div class="newsletter-content">
+            <h3>Participe e ganhe %25 DE DESCONTO!</h3>
+            <p>Assine nossa newsletter para ganhar o código de desconto. </p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Email" required>
+                <button type="submit">Enviar </button>
+            </form>
+        </div>
+    </section>
+
+    <!------------------------------------------------------------------------------------------------>
+    <!--4.SECTION FOOTER -->
+    <footer class="footer">
+        <div class="footer-links-container">
+            <div class="footer-column">
+                <h4>Privacidade </h4>
+                <ul>
+                    <li><a>Termos </a></li>
+                    <li><a>Cookies</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Serviços </h4>
+                <ul>
+                    <li><a>Encomende </a></li>
+                    <li><a>Ajuda </a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Sobre Nós </h4>
+                <ul>
+                    <li><a>Endereço </a></li>
+                    <li><a>Nosso time </a></li>
+                    <li><a>Filiais </a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Informações </h4>
+                <ul>
+                    <li><a>Contato </a></li>
+                    <li><a>Email </a></li>
+                    <li><a>Produtos </a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Redes Sociais </h4>
+                <div class="social-icons">
+                    <a><i class="fab fa-twitter"></i></a>
+                    <a><i class="fab fa-instagram"></i></a>
+                    <a><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="copyright">Copyright &copy; 2025, Doce Coffee</div>
+            <div class="footer-logos">
+                <span class="logo-text">Sobre </span>
+                <span class="logo-text">Suporte </span>
+                <span class="logo-text">Blog </span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
