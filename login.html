@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Cadastro - DOCE COFFEE</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="login.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-------------------------------------------------------------------------------------------------------->
+    <!-- 1.SECTION FORMULARIO DE LOGIN -->
+    <div class="login-container">
+        <div class="form-wrapper">
+            <form id="login-form" class="auth-form">
+                <h2>Entrar</h2>
+                <p>Acesse sua conta.</p>
+                <div class="input-group">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" required>
+                </div>
+                <div class="input-group">
+                    <label for="login-password">Senha</label>
+                    <input type="password" id="login-password" required>
+                </div>
+                <button type="submit" class="btn-primary auth-btn">Entrar</button>
+                <p class="form-message" id="login-message"></p>
+                <p class="toggle-form">Não tem uma conta? <a href="#" id="show-register">Cadastre-se</a></p>
+                <a href="index.html" class="back-link">&larr; Voltar para a loja</a>
+            </form>
+
+            <!-------------------------------------------------------------------------------------------------------->
+            <!-- 1.SECTION FORMULARIO DE CADASTRO -->
+            <form id="register-form" class="auth-form" style="display: none;">
+                <h2>Cadastre-se</h2>
+                <p>Crie sua conta para aproveitar ofertas.</p>
+                <div class="input-group">
+                    <label for="register-name">Nome</label>
+                    <input type="text" id="register-name" required>
+                </div>
+                <div class="input-group">
+                    <label for="register-email">Email</label>
+                    <input type="email" id="register-email" required>
+                </div>
+                <div class="input-group">
+                    <label for="register-password">Senha</label>
+                    <input type="password" id="register-password" minlength="6" required>
+                </div>
+                <button type="submit" class="btn-primary auth-btn">Criar Conta</button>
+                <p class="form-message" id="register-message"></p>
+                <p class="toggle-form">Já tem uma conta? <a href="#" id="show-login">Entrar</a></p>
+                <a href="index.html" class="back-link">&larr; Voltar para a loja</a>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="auth.js"></script>
+</body>
+</html>

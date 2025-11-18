@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DOCE COFFEE - Cafeteria Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header"> <!-- SECTION CABEÇALHO INDEX.HTML-->
+        <nav class="navbar">
+            <div class="logo">DC</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cardapio.html">Cardápio <i class="fas fa-chevron-down"></i></a></li> 
+                <li><a href="#Ofertas Epeciais">Ofertas Especiais </a></li>
+                <li><a href="#">Combos </a></li>
+                <li><a href="#">Pedidos </a></li>
+                <li><a href="#Sobre Nós">Sobre Nós</a></li>
+            </ul>
+            <div class="nav-icons" id="user-auth-container">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-shopping-bag"></i></a>
+                <a href="login.html"><i class="fas fa-user-circle"></i></a>
+                <a href="login.html" class="btn-login login-link">Entrar · Cadastre-se</a>
+            </div>
+        </nav>
+    </header>
+
+    <!------------------------------------------------------------------------------------------------------>
+    <!-- 1.SECTION PRIMARIA -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1> DOCE COFFEE</h1>
+            <h2>Confeitaria · Lounge </h2>
+            <p>Aprecie um café especial como se estivesse em nossa cafeteria, no aconchego do seu lar. Todo pedido é
+                feito e enviado no mesmo dia. <br> </p>
+            <div class="hero-buttons">
+                <a href="cardapio.html" class="btn-primary">Acesse o Cardápio</a>
+                <!-- Link de login atualizado -->
+                <a href="login.html" class="btn-secondary login-link">Entrar · Cadastre-se</a>
+            </div>
+            <div class="hero-status">
+                <div>
+                    <span class="status-number">+1000</span>
+                    <span class="status-text">clientes felizes</span>
+                </div>
+                <div>
+                    <span class="status-number">+110k</span>
+                    <span class="status-text">total de vendas</span>
+                </div>
+                <div>
+                    <span class="status-number">+40k</span>
+                    <span class="status-text">feedbacks positivos</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="img/coffee.jpg" alt="Xícara de Café">
+        </div>
+    </section>
+
+    <!-------------------------------------------------------------------------------------------------------->
+    <!-- 2.SECTION PRODUTOS -->
+    <section class="products-section">
+        <h3 class="section-title">Veja os produtos mais vendidos </h3>
+        <ul class="product-tabs">
+            <li><a href="/cardapio.html" class="active">Torta</a></li> <!-- traço -->
+            <li><a href="cardapio.html">Café </a></li>
+            <li><a href="cardapio.html">Cappucino </a></li>
+            <li><a href="cardapio.html">Donut </a></li>
+            <li><a href="cardapio.html">Milkshake </a></li>
+            <li><a href="cardapio.html">Cookie </a></li>
+        </ul>
+        <div class="products-grid">
+            <div class="product-card"> <!-- linha 1.1 -->
+                <img src="img/bolo1.png" alt="Torta ">
+                <div class="product-info">
+                    <h4>Torta Prestígio</h4>
+                    <span class="p">R$12</span>
+                </div>
+                <a href="page/bolo1Product.html" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a> <!-- iconce >  -->
+            </div>
+            <div class="product-card"> <!-- linha 1.2 -->
+                <img src="img/donut1.png" alt="Donut "> 
+                <div class="product-info">
+                    <h4>Donut De Castanha</h4>
+                    <span class="p">R$10</span>
+                </div>
+                <a href="/page/donut1Product.html" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="product-card"> <!-- linha 1.3 -->
+                <img src="img/sorvete1.png" alt="Sorvete ">
+                <div class="product-info">
+                    <h4>Sorvete De Baunilha</h4>
+                    <span class="p">R$10</span>
+                </div>
+                <a href="page/sorvete1Product.html" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div> 
+            <div class="product-card"> <!-- linha 1.4 -->
+                <img src="img/cupcake5.png" alt="Cupcake">
+                <div class="product-info">
+                    <h4>Cupcake De Chocolate</h4>
+                    <span class="p">R$8</span>
+                </div>
+                <a href="/page/cupcake5Product.html" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------------------------------------------------------------------------------->
+    <!-- 3.SECTION MELHORES PRODUTOS -->
+    <section class="best-products-section">
+        <div class="best-products-content">
+            <h3>Confira nossos melhores produtos </h3>
+            <a href="cardapio.html" class="btn-primary">Acesse o Cardápio <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="best-products-image"> <!-- linha 2 -->
+            <img src="img/pancake4.png" alt="Pancake">
+        </div>
+    </section>
+
+    <!-------------------------------------------------------------------------------------------------------->
+    <!-- 4.SECTION PRODUTOS MAIS VENDIDOS -->
+    <h3 id="Ofertas Epeciais"> </h3>
+    <section class="special-products-section">
+        <h3 class="section-title">Produtos especiais de fim de semana</h3>
+        <p class="section-subtitle">Confira nossos produtos especiais e ganhe mais de 10% DE DESCONTO! </p>
+        <ul class="product-tabs">
+            <li><a href="/cardapio.html" class="active"> Sorvete · Cookie · Brownie </a></li>
+        </ul>
+        <div class="products-grid special">
+            <div class="product-card"> <!-- linha 3.1 -->
+                <span class="discount">- %20</span> 
+                <img src="img/sorvete2.png" alt="Sorvete"> 
+                <div class="product-info">
+                    <h4>Sorvete De Cereja</h4>
+                    <span class="p">R$12</span>
+                </div>
+                <a href="/page/sorvete2Product.html" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="product-card"> <!-- linha 3.2 -->
+                <span class="discount">- %30 </span>
+                <img src="img/cookie3.png" alt="Cookie">
+                <div class="product-info">
+                    <h4>Cookie De Nutella</h4>
+                    <span class="p">R$10</span>
+                </div>
+                <a href="/cardapio.html" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="product-card"> <!-- linha 3.3 -->
+                <span class="discount">- %20</span>
+                <img src="img/brownie1.png" alt="Brownie">
+                <div class="product-info">
+                    <h4>Brownie Recheado </h4>
+                    <span class="p">R$10</span>
+                </div>
+                <a href="/cardapio.html" class="add">Adicione ao carrinho <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------------------------------------------------------------------------------->
+    <!-- 5.SECTION PRODUTOS QUALIDADE -->
+    <h3 id="Sobre Nós"> </h3>
+    <section class="quality-section">
+        <div class="quality-content">
+            <h3>Nós nos preocupamos com a qualidade dos <br> nossos produtos </h3>
+            <p>Beber café é uma das coisas mais globais que você pode fazer aqui todos os dias. <br>Nosso objetivo é
+                proporcionar a você uma ótima experiência com nosso café especial.</p>
+            <div class="quality-grid">
+                <div class="quality-item"> <!-- linha 4.1 -->
+                    <img src="img/cookies.png" alt="Cookie ">
+                    <div>
+                        <h4>Comunidade Ativa</h4>
+                        <p>Junte-se ao nosso grupo especial para obter os produtos que você deseja!</p>
+                    </div>
+                </div>
+                <div class="quality-item"> <!-- linha 4.2 -->
+                    <img src="img/milkshake1.png" alt="Milkshake">
+                    <div>
+                        <h4>Melhor design de produto</h4>
+                        <p>Projetamos nossos produtos para uma ótima experiência.</p>
+                    </div>
+                </div>
+                <div class="quality-item"> <!-- linha 4.3 -->
+                    <img src="img/matcha.png" alt="Matcha">
+                    <div>
+                        <h4>Qualidade premium</h4>
+                        <p>Nosso café é torrado aqui na nossa região. </p>
+                    </div>
+                </div>
+                <div class="quality-item"> <!-- linha 4.4 -->
+                    <img src="img/cooffe4.png" alt="Coffee">
+                    <div>
+                        <h4>Os melhores materiais </h4>
+                        <p>Usamos os melhores materiais para fabricar nossos produtos. </p>
+                    </div>
+                </div>
+            </div>
+            <a href="cardapio.html" class="btn-primary">Acesse o cardapio <i class="fas fa-chevron-right"></i></a>
+        </div>
+    </section>
+
+    <!-------------------------------------------------------------------------------------------------------->
+    <!-- 6.SECTION INSCRIÇÃO-DESCONTO -->
+    <section class="newsletter-section">
+        <div class="newsletter-content">
+            <h3>Participe e ganhe %25 DE DESCONTO!</h3>
+            <p>Assine nossa newsletter para ganhar o código de desconto. </p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Email" required>
+                <button type="submit">Enviar </button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-------------------------------------------------------------------------------------------------------->
+    <!-- 6.1 SECTION COMENTARIOS -->
+    <section class="comments-section container">
+        <h3 class="section-title">O que dizem nossos clientes</h3>
+        <p class="section-subtitle">Deixe sua opinião sobre nossos produtos</p>
+
+        <form id="comment-form" class="comment-form">
+            <input type="hidden" id="comment-id"> <div class="input-group">
+                <input type="text" id="comment-name" placeholder="Seu Nome" required>
+            </div>
+            <div class="input-group">
+                <textarea id="comment-text" placeholder="Escreva seu comentário..." rows="3" required></textarea>
+            </div>
+            <button type="submit" id="submit-comment-btn" class="btn-primary">Publicar Comentário</button>
+            <button type="button" id="cancel-edit-btn" class="btn-secondary" style="display: none;">Cancelar</button>
+        </form>
+
+        <div id="comments-container" class="comments-list">
+            </div>
+    </section>
+
+    <!-------------------------------------------------------------------------------------------------------->
+    <!-- 7.SECTION FOOTER -->
+    <footer class="footer">
+        <div class="footer-links-container">
+            <div class="footer-column">
+                <h4>Privacidade </h4>
+                <ul>
+                    <li><a>Termos </a></li>
+                    <li><a>Cookies</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Serviços </h4>
+                <ul>
+                    <li><a>Encomende </a></li>
+                    <li><a>Ajuda </a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Sobre Nós </h4>
+                <ul>
+                    <li><a>Endereço </a></li>
+                    <li><a>Nosso time </a></li>
+                    <li><a>Filiais </a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Informações </h4>
+                <ul>
+                    <li><a>Contato </a></li>
+                    <li><a>Email </a></li>
+                    <li><a>Produtos </a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Redes Sociais </h4>
+                <div class="social-icons">
+                    <a><i class="fab fa-twitter"></i></a>
+                    <a><i class="fab fa-instagram"></i></a>
+                    <a><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="copyright">Copyright &copy; 2025, Doce Coffee</div>
+            <div class="footer-logos">
+                <span class="logo-text">Sobre </span>
+                <span class="logo-text">Suporte </span>
+                <span class="logo-text">Blog </span>
+            </div>
+        </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
